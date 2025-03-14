@@ -37,6 +37,7 @@ const Page = () => {
   return (
     <div className="text-white">
       <h1 className="text-5xl mb-12 text-center">Dashboard</h1>
+      <h2>Congratulations, you are successfully deployed this application and logged in.</h2>
 
       {dashboardData ? (
         <div className="space-y-6">
